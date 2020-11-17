@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-align: center;
   color: white;
+  font-family: 'Roboto',Arial,sans-serif;
 }
 
 
@@ -19,7 +20,6 @@ footer{
   height: 2.5rem;
   width: 100%;
   color: #717171;
-  font-family: 'Roboto',Arial,sans-serif;
 }
 
 
@@ -32,12 +32,6 @@ footer{
 
 .searchArea, .resultsArea{
   padding: 5vh 0 5vh 0;
-}
-
-.heading{
-  font-family: Arial;
-  margin-bottom: 20px;
-  font-size: 50px;
 }
 
 .headerImages img{
@@ -89,7 +83,6 @@ footer{
   color: #6f6f6f;
 }
 
-
 .results-info{
   margin: auto;
   padding: 5px 0 0 10px;
@@ -97,7 +90,6 @@ footer{
 
 .results-info h1{
   font-weight: normal;
-  font-family: 'Roboto', Arial, sans-serif;
 }
 
 
@@ -126,13 +118,15 @@ footer{
   background: black;
 
   font-size: 12px;
-  font-family: 'Roboto', Arial, sans-serif;
   border-radius: 2px;
 }
 
 
 
 @media screen and (min-width: 300px){
+  .headerImages{
+    margin-top: 20vh;
+  }
 	.URL-input{
     width: 100%;
     font-size: 17px;
@@ -141,10 +135,7 @@ footer{
   #search-button{
     font-size: 20px;
   }
-  .heading{
-    font-size: 30px;
-    margin-top: 20vh;
-  }
+
 
   .headerImages{
     width: 200px;
@@ -174,11 +165,6 @@ footer{
     font-size: 20px;
     height: initial;
   }
-
-  .heading{
-    margin-top: initial;
-  }
-
   .results-info h1{
     font-size: 28px;
     margin-top: initial;
@@ -202,6 +188,9 @@ footer{
 }
 
 @media screen and (min-width: 980px){
+  .headerImages{
+    margin-top: initial;
+  }
 	.URL-input{
     width: 50rem;
     margin: 0 10px;
